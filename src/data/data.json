@@ -1,0 +1,63 @@
+[
+    {
+      "postImg": "../images/postImages/post1.png",
+      "postType": "✍ Article",
+      "postDesc": "What if famous brands had regular fonts? Meet RegulaBrands!",
+      "postIcon": "bi-three-dots",
+      "subDesc": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+      "userProfile": "images/profilesImg/profile1.png",
+      "userName": "Sarthak Kamra",
+      "postViews": "1.4k views",
+      "cardNum":"1"
+
+    },
+    {
+      "postImg": "../images/postImages/post2.png",
+      "postType": "🔬️ Education",
+      "postDesc": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+      "postIcon": "bi-three-dots",
+      "subDesc": "I’ve worked in UX for the better part of a decade. F..",
+      "userProfile": "images/profilesImg/profile2.png",
+      "userName": "Sarthak Kamra",
+      "postViews": "1.4k views",
+      "cardNum":"2"
+
+    },
+    {
+      "postImg": "../images/postImages/post3.png",
+      "postType": "🗓️ Meetup",
+      "postDesc": "Finance & Investment Elite Social Mixer @Lujiazui",
+      "postIcon": "bi-three-dots",
+      "subDesc": "Finance & Investment Elite Social Mixer @Lujiazui",
+      "userProfile": "images/profilesImg/profile3.png",
+      "userName": "Ronal Jones",
+      "postViews": "1.4k views",
+      "extra":"true",
+      "btnContent":"Visit Website",
+      "style":"webBtn",
+      "exIcon1":"bi bi-calendar",
+      "exIcon2":"bi bi-geo-alt",
+      "day":"Fri, 12 Oct, 2018",
+      "loc":"Ahmedabad, India",
+      "cardNum":"3"
+    },
+    {
+      "postImg": "",
+      "postType": "💼️ Job",
+      "postDesc": "Software Engineer",
+      "postIcon": "bi-three-dots",
+      "subDesc": "",
+      "userProfile": "images/profilesImg/profile4.png",
+      "userName": "Joseph Gray",
+      "postViews": "1.4k views",
+      "extra":"true",
+      "btnContent":"Apply on timesjob",
+      "style":"jobBtn",
+      "exIcon1":"bi bi-briefcase-fill",
+      "exIcon2":"bi bi-geo-alt",
+      "day":"Innovaccer Analytic",
+      "loc":"Noida, India",
+      "cardNum":"4"
+
+    }
+  ]

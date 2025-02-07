@@ -1,0 +1,18 @@
+[
+    {
+        "profilePic":"images/users/user-1.jpg",
+        "name":"Leisure"
+    },
+    {
+        "profilePic":"images/users/user-2.jpg",
+        "name":"Activism"
+    },
+    {
+        "profilePic":"images/users/user-3.jpg",
+        "name":"MBA"
+    },
+    {
+        "profilePic":"images/users/user-4.jpg",
+        "name":"Philospy"
+    }
+]

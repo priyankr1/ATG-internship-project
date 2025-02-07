@@ -1,0 +1,471 @@
+/* NAVBAR STYLE */
+.myNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 15px;
+}
+.head-link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.head-link:hover {
+  cursor: pointer;
+}
+.head-span {
+  color: #2f6cef;
+}
+.input-group-text,
+.eyeBtn {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0;
+}
+.input-group-text {
+  left: 10px;
+}
+.eyeBtn {
+  right: 10px !important;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group-text i {
+  color: gray;
+}
+.input-group-text i:hover {
+  cursor: pointer;
+}
+
+/* HOme style */
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/home.png");
+  height: 70vh;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  background-position: center;
+  display: flex;
+  align-items: end;
+}
+.joinGroup {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+.resHead {
+  visibility: hidden;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  padding: 5px 10px;
+}
+.home .content {
+  padding-left: 11vw;
+  padding-bottom: 4.5vw;
+}
+.home .content h1 {
+  font-size: clamp(27px, 5vw, 33px);
+  letter-spacing: 1px;
+}
+.home .content p {
+  font-size: clamp(14px, 1vw, 22px);
+  letter-spacing: 1px;
+}
+
+/*  */
+.post-content {
+  margin-left: 140px;
+}
+.postRes {
+  display: none !important;
+}
+.post-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.post-header,
+.postRes {
+  color: #8a8a8a;
+  padding: 40px 50px 0 180px;
+}
+.post-section .head-items,
+.head-itemsRes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.options {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  background-color: #edeef0;
+
+  font-weight: 700;
+}
+
+.head-items .head-item .post-link {
+  text-decoration: none;
+  color: #8a8a8a;
+  transition: all 0.5s;
+}
+.head-items .head-item .post-link:hover {
+  color: black;
+}
+.line {
+  margin-left: 120px;
+  width: 81%;
+  height: 1px;
+  background-color: #8a8a8a;
+}
+/* POST STYLE && CARD STYLE */
+.posts .card {
+  width: clamp(320px, 48vw, 800px);
+}
+.posts .post-type {
+  font-size: clamp(13px, 2vw, 20px);
+}
+.jobBtn {
+  color: green !important;
+  margin-bottom: 20px!important;
+}
+.webBtn {
+  color: orange !important;
+  margin-bottom: 20px!important;
+}
+.posts .post-desc {
+  font-size: clamp(14px, 2vw, 22px);
+  width: clamp(250px, 40vw, 800px);
+  font-weight: 700;
+}
+.posts .sub-desc {
+  color: gray;
+  font-size: clamp(14px, 2vw, 18px);
+}
+.posts .profile {
+  min-width: 220px;
+  align-self: start;
+  width: clamp(220px, 30vw, 220px);
+}
+.posts .profile .profile-img {
+  width: clamp(60px, 15vw, 60px);
+  object-fit: contain;
+  border-radius: 50%;
+}
+.posts .profile .user-name {
+  font-weight: 700;
+  padding-top: 10px;
+}
+.posts .profile:hover {
+  cursor: pointer;
+}
+.posts .card .last-part {
+  gap: clamp(10px, 8vw, 250px);
+}
+/* Ensure high specificity to override Bootstrap styles */
+.btn.postOption {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn.postOption:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn.postOption:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.optionOpen {
+  list-style: none;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 150px;
+  padding-left: 5px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+
+  right: 15px;
+}
+/* Location text style */
+
+.location .pencil-icon {
+  margin-left: clamp(20px, 8vw, 120px);
+}
+.location .location-text {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+  width: clamp(250px, 20vw, 300px);
+}
+.location .location-desc {
+  margin-top: 5px;
+  font-size: 13px;
+  width: clamp(200px, 70%, 400px);
+}
+/* LOGIN PAGE */
+
+.login,
+.signup {
+  width: clamp(800px, 60%, 1000px);
+  min-height: 70%;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-60%, -70%);
+  background-color: #fff;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.signup .head,
+.login .head {
+  color: #008a45;
+  background: #effff4;
+  width: 100%;
+  height: 8vh;
+  display: grid;
+  padding-top: 10px;
+  place-items: center;
+  border-radius: 15px;
+}
+
+.signup .head .btn,
+.login .head .btn {
+  position: absolute;
+  right: 0;
+  top: -30px;
+  color: white;
+  border-radius: 50%;
+  padding: 1px 7px;
+  background: gray;
+}
+.signup .content {
+  margin-left: 26px;
+}
+.signup-form .forName .lastName {
+  border-left: none;
+}
+.signup-form .forName input {
+  width: clamp(150px, 15vw, 175px);
+}
+.signup-form input {
+  border: 1px solid #d9d9db;
+  outline: none;
+  border-bottom: none;
+  width: clamp(300px, 30vw, 350px);
+  padding: 10px 15px;
+  background: #f7f8fa;
+}
+.signup-form .conPassword {
+  border-bottom: 1px solid #d9d9db;
+}
+.form-btn,
+.signIn-btn {
+  width: clamp(300px, 30vw, 350px);
+}
+.mobContent {
+  display: none;
+}
+.cutBtn {
+  color: white;
+  border-radius: 50%;
+  padding: 1px 7px;
+  border: none;
+  background-color: gray;
+}
+.cutBtn:hover {
+  cursor: pointer;
+}
+.mobLink {
+  display: none !important;
+}
+.mobHeader {
+  display: none !important;
+  visibility: hidden;
+}
+.profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* RESPONSIVE CODE */
+
+.showOption {
+  display: inherit;
+}
+.extraBtn {
+  font-size: clamp(14px, 2vw, 20px);
+}
+.posts .views {
+  width: clamp(70px, 7vw, 150px);
+  font-size: clamp(12px, 1vw, 15px);
+}
+.shareBtn {
+  margin-bottom: 11px;
+}
+.joinBtn {
+  font-size: clamp(12px, 2vw, 15px);
+  width: clamp(140px, 10vw, 250px);
+}
+@media (max-width: 900px) {
+  .myNav {
+    display: none;
+  }
+  .recUsers {
+    display: none;
+  }
+  .home-section {
+    height: 50vh;
+  }
+  .home-section .content {
+    padding-left: 10vw;
+    padding-bottom: 10vw;
+  }
+  .line {
+    display: none;
+  }
+  .post-section .head-items .head-item {
+    display: none;
+  }
+  .post-content .location {
+    display: none;
+  }
+
+  .post-header .options {
+    display: none;
+  }
+  /* post style */
+  .posts .views {
+    display: none;
+  }
+
+  .postRes {
+    display: flex !important;
+  }
+
+  /* LOGIN AND SIGN IN RESPONSIVE CODE */
+  .signup,
+  .login {
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    width: 100vw;
+    height: 75%;
+    top: 80%;
+    min-height: 30vw;
+  }
+
+  .signup .head,
+  .login .head {
+    display: none !important;
+  }
+  .postRes {
+    padding: 40px 50px 0 100px;
+  }
+  .signup .content,
+  .login .content {
+    display: none !important;
+  }
+  .signup .mainImg,
+  .login .mainImg {
+    display: none !important;
+  }
+
+  .signup form,
+  .login form {
+    width: 100%;
+    margin-top: 30px;
+    align-items: center !important;
+  }
+  .signup-form .forName input {
+    width: clamp(150px, 25vw, 225px);
+  }
+  .signup-form input,
+  .signIn-div {
+    width: clamp(300px, 50vw, 450px);
+  }
+  .form-btn {
+    width: clamp(300px, 50vw, 450px);
+  }
+  .mobContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+  }
+  .mobLink {
+    display: inherit !important;
+  }
+  .signIn-btn {
+    border-radius: 100px !important;
+    width: clamp(140px, 30vw, 150px);
+  }
+  .resText {
+    display: none;
+  }
+  .joinBtn {
+    display: none !important;
+  }
+  .resHead {
+    visibility: visible;
+  }
+  .loginBtn {
+    width: 100px;
+  }
+  .showOption {
+    visibility: visible;
+  }
+  .mobHeader {
+    visibility: visible;
+  }
+  .post-content {
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home-section {
+    height: 40vh;
+  }
+  .login,
+  .signup {
+    height: 40%;
+    min-height: 475px;
+    bottom: -100px;
+    top: 80%;
+  }
+  .myNav {
+    display: none;
+  }
+  .postRes {
+    padding: 40px 50px 0 50px;
+  }
+  .post-content {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
